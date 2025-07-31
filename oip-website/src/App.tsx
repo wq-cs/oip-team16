@@ -3,7 +3,7 @@ import Navbar from "./components/Navbar";
 import Problem from "./pages/problem";
 import Solution from "./pages/solution";
 import Journey from "./pages/journey";
-import Message from "./pages/message";
+import About from "./pages/about";
 import Reflection from "./pages/reflection";
 
 function Home() {
@@ -61,7 +61,7 @@ function App() {
         <Route path="/problem" element={<Problem />} />
         <Route path="/solution" element={<Solution />} />
         <Route path="/journey" element={<Journey />} />
-        <Route path="/message" element={<Message />} />
+        <Route path="/about" element={<About />} />
         <Route path="/reflection" element={<Reflection />} />
       </Routes>
     </Router>
