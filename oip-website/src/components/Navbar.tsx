@@ -8,7 +8,7 @@ const Navbar: React.FC = () => {
         <Link to="/" className="text-xl font-bold hover:text-blue-500">OIP</Link>
         <div className="flex space-x-6">
           <Link to="/journey" className="hover:text-blue-500">Journey</Link>
-          <Link to="/message" className="hover:text-blue-500">Message</Link>
+          <Link to="/about" className="hover:text-blue-500">About</Link>
           <Link to="/problem" className="hover:text-blue-500">Problem</Link>
           <Link to="/solution" className="hover:text-blue-500">Solution</Link>
           <Link to="/reflection" className="hover:text-blue-500">Reflection</Link>
