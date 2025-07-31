@@ -38,10 +38,33 @@ const Problem: React.FC = () => {
                     <section className="bg-white p-8 rounded-2xl shadow-lg">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Current State</h2>
                         <p className="mb-4">
-                            River Kelvin faces significant challenges with pollution despite being a vital part of Glasgow's ecosystem. While the river remains a popular spot for licensed fishermen pursuing their hobby, its waters tell a concerning story of environmental challenges and safety risks.
+                            The River Kelvin, often referred to as one of the "most polluted rivers" in Glasgow, flows into the River Clyde. While the river faces significant challenges with pollution, it remains a vital part of Glasgow's ecosystem and continues to support a diverse range of wildlife.
                         </p>
                         <p className="mb-4">
                             The river's murky waters conceal numerous hazards, from natural obstacles like rocks and logs to man-made dangers such as discarded clothing and, most concerningly, used heroin needles. These hidden dangers pose significant risks to both wildlife and human visitors.
+                        </p>
+                    </section>
+
+                    <section className="bg-white p-8 rounded-2xl shadow-lg">
+                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Local Insights & Community Connection</h2>
+                        <p className="mb-4">
+                            Despite its reputation, the River Kelvin remains deeply loved by local anglers. During our fieldwork, we had the privilege of meeting Tom and Lee, passionate fishermen who shared their intimate knowledge of the river. Their insights proved invaluable to our understanding of the river's dynamics and challenges.
+                        </p>
+                        <div className="bg-gray-50 p-6 rounded-lg mb-4">
+                            <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Solution Journey</h3>
+                            <p className="mb-4">
+                                Through our collaboration with Tom, Lee, and other local anglers, we identified an opportunity to support SEPA (Scottish Environment Protection Agency) in their river data collection and prediction efforts. This led to the development of our innovative solution: a social app concept that empowers anglers to:
+                            </p>
+                            <ul className="list-disc list-inside space-y-2 ml-4">
+                                <li>Log real-time river conditions</li>
+                                <li>Record fish sightings and catches</li>
+                                <li>Share local knowledge and insights</li>
+                                <li>Contribute to citizen science initiatives</li>
+                                <li>Build a community of river stewards</li>
+                            </ul>
+                        </div>
+                        <p className="text-sm text-gray-600 italic">
+                            Special thanks to Tom and Lee for their time, knowledge, and for allowing us to experience the River Kelvin through their eyes.
                         </p>
                     </section>
 
