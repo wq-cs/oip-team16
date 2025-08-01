@@ -2,13 +2,13 @@ import React from "react";
 
 const Journey: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white pt-24">
-      <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8 animate-fade-in">Project Journey</h1>
+    <div className="min-h-screen relative pt-24">
+      <div className="max-w-4xl mx-auto px-4 relative z-10">
+        <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-8 animate-fade-in">Project Journey</h1>
 
         <div className="space-y-8">
           {/* Project Timeline Section */}
-          <section className="bg-white p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">Project Timeline</h2>
             <div className="flex flex-col gap-12">
               {[
@@ -100,16 +100,16 @@ const Journey: React.FC = () => {
           </section>
 
           {/* Milestones Achieved Section */}
-          <section className="bg-white p-8 rounded-2xl shadow-lg">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">Milestones Achieved</h2>
+          <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+            <h2 className="text-2xl font-semibold text-white mb-4">Milestones Achieved</h2>
             <div className="grid md:grid-cols-2 gap-6">
-              <div className="p-4 bg-gray-50 rounded-lg">
+              <div className="p-4 bg-white/90 rounded-lg">
                 <h3 className="font-semibold text-gray-800 mb-2">Partner Collaboration Established</h3>
                 <p className="text-gray-600">
                   Built a strong working relationship with FORK and gained clarity on stakeholder needs and vision.
                 </p>
               </div>
-              <div className="p-4 bg-gray-50 rounded-lg">
+              <div className="p-4 bg-white/90 rounded-lg">
                 <h3 className="font-semibold text-gray-800 mb-2">Field-Validated Design</h3>
                 <p className="text-gray-600">
                   Validated prototype design through real conversations and observations at the River Kelvin with locals.

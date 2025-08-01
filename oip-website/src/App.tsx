@@ -9,27 +9,26 @@ import Reflection from "./pages/reflection";
 function Home() {
   return (
     <main className="min-h-screen relative">
-        <div className="absolute inset-0">
-          <img src="/images/RK.jpg" alt="River Kelvin" className="w-full h-full object-cover" />
-          <div className="absolute inset-0 bg-black/60"></div>
-        </div>
+      <div className="absolute inset-0 bg-[url('/images/RK.jpg')] bg-top bg-repeat-y bg-cover">
+        <div className="absolute inset-0 bg-black/60"></div>
+      </div>
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative">
         <div className="max-w-4xl mx-auto text-center relative">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-teal-400 mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-6 animate-fade-in">
             River Kelvin Monitoring
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 mb-8 max-w-2xl mx-auto">
             Transforming river safety through innovative IoT solutions and real-time analytics.
           </p>
-            <div className="flex justify-center gap-4">
-              <Link to="/problem" className="px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors">
-                Learn More
-              </Link>
-              <Link to="/journey" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium hover:bg-gray-200 transition-colors">
-                Our Journey
-              </Link>
-            </div>
+          <div className="flex justify-center gap-4">
+            <Link to="/problem" className="px-6 py-3 bg-blue-600 text-white rounded-full font-medium hover:bg-blue-700 transition-colors">
+              Learn More
+            </Link>
+            <Link to="/journey" className="px-6 py-3 bg-gray-100 text-gray-700 rounded-full font-medium hover:bg-gray-200 transition-colors">
+              Our Journey
+            </Link>
+          </div>
         </div>
       </section>
 
@@ -120,15 +119,18 @@ function Home() {
 function App() {
   return (
     <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/problem" element={<Problem />} />
-        <Route path="/solution" element={<Solution />} />
-        <Route path="/journey" element={<Journey />} />
-        <Route path="/about" element={<About />} />
-        <Route path="/reflection" element={<Reflection />} />
-      </Routes>
+      <div className="relative min-h-screen">
+        <div className="fixed inset-0 z-[-1] bg-[url('/images/RK.jpg')] bg-repeat-y bg-top bg-cover" />
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/problem" element={<Problem />} />
+          <Route path="/solution" element={<Solution />} />
+          <Route path="/journey" element={<Journey />} />
+          <Route path="/about" element={<About />} />
+          <Route path="/reflection" element={<Reflection />} />
+        </Routes>
+      </div>
     </Router>
   );
 }

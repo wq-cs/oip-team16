@@ -16,9 +16,9 @@ const Problem: React.FC = () => {
     };
 
     return (
-        <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white pt-24">
-            <div className="max-w-4xl mx-auto px-4">
-                <h1 className="text-4xl font-bold text-gray-800 mb-8 animate-fade-in">River Kelvin: A Complex Ecosystem</h1>
+        <div className="min-h-screen relative pt-24">
+            <div className="max-w-4xl mx-auto px-4 relative z-10">
+                <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-8 animate-fade-in">River Kelvin: A Complex Ecosystem</h1>
 
                 {/* Video Section */}
                 <section className="mb-8 rounded-2xl overflow-hidden shadow-lg bg-gray-900">
@@ -35,7 +35,7 @@ const Problem: React.FC = () => {
                 </section>
 
                 <div className="space-y-8 text-gray-600">
-                    <section className="bg-white p-8 rounded-2xl shadow-lg">
+                    <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Current State</h2>
                         <p className="mb-4">
                             The River Kelvin, often referred to as one of the "most polluted rivers" in Glasgow, flows into the River Clyde. While the river faces significant challenges with pollution, it remains a vital part of Glasgow's ecosystem and continues to support a diverse range of wildlife.
@@ -45,12 +45,12 @@ const Problem: React.FC = () => {
                         </p>
                     </section>
 
-                    <section className="bg-white p-8 rounded-2xl shadow-lg">
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Local Insights & Community Connection</h2>
+                    <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+                        <h2 className="text-2xl font-semibold text-white mb-4">Local Insights & Community Connection</h2>
                         <p className="mb-4">
                             Despite its reputation, the River Kelvin remains deeply loved by local anglers. During our fieldwork, we had the privilege of meeting Tom and Lee, passionate fishermen who shared their intimate knowledge of the river. Their insights proved invaluable to our understanding of the river's dynamics and challenges.
                         </p>
-                        <div className="bg-gray-50 p-6 rounded-lg mb-4">
+                        <div className="bg-white/90 p-6 rounded-lg mb-4">
                             <h3 className="text-xl font-semibold text-gray-800 mb-3">Our Solution Journey</h3>
                             <p className="mb-4">
                                 Through our collaboration with Tom, Lee, and other local anglers, we identified an opportunity to support SEPA (Scottish Environment Protection Agency) in their river data collection and prediction efforts. This led to the development of our innovative solution: a social app concept that empowers anglers to:
@@ -63,14 +63,14 @@ const Problem: React.FC = () => {
                                 <li>Build a community of river stewards</li>
                             </ul>
                         </div>
-                        <p className="text-sm text-gray-600 italic">
+                        <p className="text-sm text-white/90 italic">
                             Special thanks to Tom and Lee for their time, knowledge, and for allowing us to experience the River Kelvin through their eyes.
                         </p>
                     </section>
 
-                    <section className="bg-white p-8 rounded-2xl shadow-lg">
-                        <h2 className="text-2xl font-semibold text-gray-800 mb-4">Key Challenges</h2>
-                        <ul className="list-disc list-inside space-y-4">
+                    <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+                        <h2 className="text-2xl font-semibold text-white mb-4">Key Challenges</h2>
+                        <ul className="list-disc list-inside space-y-4 text-white/90">
                             <li>Severe water pollution affecting the river's ecosystem</li>
                             <li>Hidden hazards including rocks, sandbags, and discarded items</li>
                             <li>Drug paraphernalia posing serious health and safety risks</li>
@@ -79,7 +79,7 @@ const Problem: React.FC = () => {
                         </ul>
                     </section>
 
-                    <section className="bg-white p-8 rounded-2xl shadow-lg">
+                    <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Wildlife Resilience</h2>
                         <p className="mb-4">
                             Despite these challenges, River Kelvin showcases nature's remarkable resilience. The river remains home to a diverse ecosystem, with various bird species making their home along its banks. Perhaps most impressively, salmon can still be seen jumping in its waters, a testament to the river's enduring capacity to support life.

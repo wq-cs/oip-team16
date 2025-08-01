@@ -4,13 +4,13 @@ import TeamPhoto from "../../public/images/OurTeam.jpg";
 
 const About: React.FC = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-gray-50 to-white pt-24">
-      <div className="max-w-4xl mx-auto px-4">
-        <h1 className="text-4xl font-bold text-gray-800 mb-8 animate-fade-in">About Us</h1>
+    <div className="min-h-screen relative pt-24">
+      <div className="max-w-4xl mx-auto px-4 relative z-10">
+        <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-8 animate-fade-in">About Us</h1>
 
         <div className="space-y-8">
           {/* Mission Section */}
-          <section className="bg-white p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
             <img
               src={FORKLogo}
               alt="Friends of the River Kelvin Logo"
@@ -31,7 +31,7 @@ const About: React.FC = () => {
           </section>
 
           {/* Project Section */}
-          <section className="bg-white p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
             <img
               src={TeamPhoto}
               alt="SIT OIP 2025 - Team 16"
@@ -50,26 +50,22 @@ const About: React.FC = () => {
           </section>
 
           {/* Stats Section */}
-          <section className="bg-white p-8 rounded-2xl shadow-lg">
-            {/* <h2 className="text-2xl font-semibold text-gray-800 mb-4">Quick Facts</h2>
+          <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+            <h2 className="text-2xl font-semibold text-white mb-4">Quick Facts</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">1991</div>
-                <p className="text-gray-600">Year FORK Was Founded</p>
+                <div className="text-3xl font-bold text-white mb-2">1991</div>
+                <p className="text-white/90">Year FORK Was Founded</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-green-600 mb-2">+300</div>
-                <p className="text-gray-600">Volunteers Engaged</p>
+                <div className="text-3xl font-bold text-white mb-2">300+</div>
+                <p className="text-white/90">Volunteers Engaged</p>
               </div>
               <div className="text-center">
-                <div className="text-3xl font-bold text-purple-600 mb-2">15+</div>
-                <p className="text-gray-600">Conservation Events / Year</p>
+                <div className="text-3xl font-bold text-white mb-2">15+</div>
+                <p className="text-white/90">Conservation Events / Year</p>
               </div>
-            </div> */}
-            <div className="text-center">
-                <div className="text-3xl font-bold text-blue-600 mb-2">1991</div>
-                <p className="text-gray-600">Year FORK Was Founded</p>
-              </div>
+            </div>
           </section>
         </div>
       </div>
