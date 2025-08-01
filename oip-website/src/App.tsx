@@ -16,7 +16,7 @@ function Home() {
       {/* Hero Section */}
       <section className="pt-32 pb-20 px-4 relative">
         <div className="max-w-4xl mx-auto text-center relative">
-          <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-6 animate-fade-in">
+          <h1 className="text-5xl md:text-6xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-teal-300 to-blue-400 py-8 mb-6 animate-fade-in">
             River Kelvin Monitoring
           </h1>
           <p className="text-xl md:text-2xl text-gray-100 mb-8 max-w-2xl mx-auto">

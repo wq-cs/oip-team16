@@ -18,7 +18,7 @@ const Problem: React.FC = () => {
     return (
         <div className="min-h-screen relative pt-24">
             <div className="max-w-4xl mx-auto px-4 relative z-10">
-                <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-8 animate-fade-in">River Kelvin: A Complex Ecosystem</h1>
+                <h1 className="text-4xl font-bold text-white mb-8 animate-fade-in">River Kelvin: A Complex Ecosystem</h1>
 
                 {/* Video Section */}
                 <section className="mb-8 rounded-2xl overflow-hidden shadow-lg bg-gray-900">

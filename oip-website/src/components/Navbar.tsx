@@ -4,27 +4,59 @@ import { Link, useLocation } from "react-router-dom";
 const Navbar: React.FC = () => {
   const location = useLocation();
   return (
-    <header className="fixed top-0 left-0 w-full bg-gradient-to-r from-amber-950 via-amber-800 to-amber-700 shadow-lg z-50 text-white">
+    <header className="fixed top-0 left-0 w-full bg-white shadow-md z-50">
+      {/* SVG gradient definition - this only needs to be defined once */}
+      <svg width="0" height="0" className="absolute">
+        <linearGradient id="nav-gradient" x1="0%" y1="0%" x2="100%" y2="0%">
+          <stop offset="0%" stopColor="#2dd4bf" /> {/* teal-400 */}
+          <stop offset="100%" stopColor="#10b981" /> {/* emerald-500 */}
+        </linearGradient>
+      </svg>
+
       <nav className="max-w-6xl mx-auto flex justify-between items-center px-4 py-4">
-        <Link to="/" className={`hover:text-blue-500 ${location.pathname === "/" ? "text-blue-600" : "text-white"}`}>
+        <Link 
+          to="/" 
+          className={`hover:opacity-80 transition-opacity ${
+            location.pathname === "/" 
+              ? "text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-500" 
+              : "text-gray-600"
+          }`}
+        >
           <svg
             xmlns="http://www.w3.org/2000/svg"
-            className={`h-6 w-6 ${location.pathname === "/" ? "font-bold" : ""}`}
+            className="h-6 w-6"
             fill="none"
             viewBox="0 0 24 24"
-            stroke="currentColor"
-            strokeWidth={2}
+            stroke={location.pathname === "/" ? "url(#nav-gradient)" : "currentColor"}
+            strokeWidth={location.pathname === "/" ? 2.5 : 2}
           >
             <path strokeLinecap="round" strokeLinejoin="round" d="M3 9.75L12 3l9 6.75M4.5 10.5V21h15V10.5" />
           </svg>
         </Link>
         <div className="flex space-x-6">
-          <Link to="/journey" className={`hover:text-blue-500 ${location.pathname === "/journey" ? "font-bold text-blue-600" : ""}`}>Journey</Link>
-          <Link to="/about" className={`hover:text-blue-500 ${location.pathname === "/about" ? "font-bold text-blue-600" : ""}`}>About</Link>
-          <Link to="/problem" className={`hover:text-blue-500 ${location.pathname === "/problem" ? "font-bold text-blue-600" : ""}`}>Problem</Link>
-          <Link to="/solution" className={`hover:text-blue-500 ${location.pathname === "/solution" ? "font-bold text-blue-600" : ""}`}>Solution</Link>
-          <Link to="/reflection" className={`hover:text-blue-500 ${location.pathname === "/reflection" ? "font-bold text-blue-600" : ""}`}>Reflection</Link>
-          <Link to="/dailies" className={`hover:text-blue-500 ${location.pathname === "/dailies" ? "font-bold text-blue-600" : ""}`}>Dailies</Link>
+          {[
+            { path: "/journey", name: "Journey" },
+            { path: "/about", name: "About" },
+            { path: "/problem", name: "Problem" },
+            { path: "/solution", name: "Solution" },
+            { path: "/reflection", name: "Reflection" }
+          ].map((item) => (
+            <Link
+              key={item.path}
+              to={item.path}
+              className={`
+                font-medium
+                hover:opacity-80 transition-opacity
+                ${
+                  location.pathname === item.path
+                    ? "text-transparent bg-clip-text bg-gradient-to-r from-teal-400 to-emerald-500 font-semibold"
+                    : "text-gray-600"
+                }
+              `}
+            >
+              {item.name}
+            </Link>
+          ))}
         </div>
       </nav>
     </header>

@@ -4,7 +4,7 @@ const Reflection: React.FC = () => {
   return (
     <div className="min-h-screen relative pt-24">
       <div className="max-w-4xl mx-auto px-4 relative z-10">
-        <h1 className="text-4xl font-bold text-transparent bg-clip-text bg-gradient-to-r from-amber-500 to-pink-600 mb-8 animate-fade-in">Project Reflections</h1>
+        <h1 className="text-4xl font-bold text-white mb-8 animate-fade-in">Project Reflections</h1>
         
         <section className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Partner Collaboration</h2>
