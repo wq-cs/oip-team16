@@ -8,7 +8,7 @@ const Journey: React.FC = () => {
 
         <div className="space-y-8">
           {/* Project Timeline Section */}
-          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-8 text-center">Project Timeline</h2>
             <div className="flex flex-col gap-12">
               {[
@@ -100,7 +100,7 @@ const Journey: React.FC = () => {
           </section>
 
           {/* Milestones Achieved Section */}
-          <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-gradient-to-r from-teal-400/75 to-emerald-500/75 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-white mb-4">Milestones Achieved</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-4 bg-white/90 rounded-lg">

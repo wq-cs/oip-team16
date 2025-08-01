@@ -10,7 +10,7 @@ const About: React.FC = () => {
 
         <div className="space-y-8">
           {/* Mission Section */}
-          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
             <img
               src={FORKLogo}
               alt="Friends of the River Kelvin Logo"
@@ -31,7 +31,7 @@ const About: React.FC = () => {
           </section>
 
           {/* Project Section */}
-          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
             <img
               src={TeamPhoto}
               alt="SIT OIP 2025 - Team 16"
@@ -50,7 +50,7 @@ const About: React.FC = () => {
           </section>
 
           {/* Stats Section */}
-          <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-gradient-to-r from-teal-400/75 to-emerald-500/75 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-white mb-4">Quick Facts</h2>
             <div className="grid md:grid-cols-3 gap-6">
               <div className="text-center">

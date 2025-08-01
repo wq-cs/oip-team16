@@ -8,7 +8,7 @@ const Solution: React.FC = () => {
         <h1 className="text-4xl font-bold text-white mb-8 animate-fade-in">Our Solution</h1>
 
         <div className="space-y-8 text-gray-600">
-          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Technical Overview</h2>
             <p className="mb-4">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer nec odio. Praesent libero. Sed cursus ante dapibus diam. Sed nisi. Nulla quis sem at nibh elementum imperdiet.
@@ -18,7 +18,7 @@ const Solution: React.FC = () => {
             </p>
           </section>
 
-          <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-gradient-to-r from-teal-400/85 to-emerald-500/85 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-white mb-4">Key Features</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="space-y-2 bg-white/90 p-4 rounded-lg">
@@ -40,7 +40,7 @@ const Solution: React.FC = () => {
             </div>
           </section>
 
-          <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
+          <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Implementation Plan</h2>
             <p className="mb-4">
               Nam nec ante. Sed lacinia, urna non tincidunt mattis, tortor neque adipiscing diam, a cursus ipsum ante quis turpis. Nulla facilisi. Ut fringilla. Suspendisse potenti.
