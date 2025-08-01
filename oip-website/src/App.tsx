@@ -80,19 +80,19 @@ function Home() {
           <h2 className="text-3xl font-bold text-gray-800 text-center mb-12">Key Features</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <div className="bg-white/90 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Real-time Monitoring</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">⏰ Real-time Monitoring</h3>
               <p className="text-gray-600">
                 Continuous tracking of water levels, flow rates, and environmental conditions for immediate awareness.
               </p>
             </div>
             <div className="bg-white/90 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Data Analytics</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">📊 Data Analytics</h3>
               <p className="text-gray-600">
                 Advanced analysis of historical data to predict potential risks and patterns in river behavior.
               </p>
             </div>
             <div className="bg-white/90 p-6 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold text-gray-800 mb-3">Community Alerts</h3>
+              <h3 className="text-xl font-bold text-gray-800 mb-3">🚨 Community Alerts</h3>
               <p className="text-gray-600">
                 Timely notifications and updates to keep the local community informed about river conditions.
               </p>

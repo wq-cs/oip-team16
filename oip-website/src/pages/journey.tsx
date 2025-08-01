@@ -104,13 +104,13 @@ const Journey: React.FC = () => {
             <h2 className="text-2xl font-semibold text-white mb-4">Milestones Achieved</h2>
             <div className="grid md:grid-cols-2 gap-6">
               <div className="p-4 bg-white/90 rounded-lg">
-                <h3 className="font-semibold text-gray-800 mb-2">Partner Collaboration Established</h3>
+                <h3 className="font-semibold text-gray-800 mb-2">🤝 Partner Collaboration Established</h3>
                 <p className="text-gray-600">
                   Built a strong working relationship with FORK and gained clarity on stakeholder needs and vision.
                 </p>
               </div>
               <div className="p-4 bg-white/90 rounded-lg">
-                <h3 className="font-semibold text-gray-800 mb-2">Field-Validated Design</h3>
+                <h3 className="font-semibold text-gray-800 mb-2">✅ Field-Validated Design</h3>
                 <p className="text-gray-600">
                   Validated prototype design through real conversations and observations at the River Kelvin with locals.
                 </p>
