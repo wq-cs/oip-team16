@@ -5,6 +5,7 @@ import Solution from "./pages/solution";
 import Journey from "./pages/journey";
 import About from "./pages/about";
 import Reflection from "./pages/reflection";
+import Dailies from "./pages/dailies";
 
 function Home() {
   return (
@@ -132,6 +133,7 @@ function App() {
           <Route path="/journey" element={<Journey />} />
           <Route path="/about" element={<About />} />
           <Route path="/reflection" element={<Reflection />} />
+          <Route path="/dailies" element={<Dailies />} />
         </Routes>
       </div>
     </Router>

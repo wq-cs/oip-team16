@@ -24,6 +24,7 @@ const Navbar: React.FC = () => {
           <Link to="/problem" className={`hover:text-blue-500 ${location.pathname === "/problem" ? "font-bold text-blue-600" : ""}`}>Problem</Link>
           <Link to="/solution" className={`hover:text-blue-500 ${location.pathname === "/solution" ? "font-bold text-blue-600" : ""}`}>Solution</Link>
           <Link to="/reflection" className={`hover:text-blue-500 ${location.pathname === "/reflection" ? "font-bold text-blue-600" : ""}`}>Reflection</Link>
+          <Link to="/dailies" className={`hover:text-blue-500 ${location.pathname === "/dailies" ? "font-bold text-blue-600" : ""}`}>Dailies</Link>
         </div>
       </nav>
     </header>
