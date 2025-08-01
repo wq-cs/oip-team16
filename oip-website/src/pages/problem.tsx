@@ -47,7 +47,7 @@ const Problem: React.FC = () => {
 
                     <section className="bg-gradient-to-r from-blue-600/75 to-teal-400/75 p-8 rounded-2xl shadow-lg">
                         <h2 className="text-2xl font-semibold text-white mb-4">Local Insights & Community Connection</h2>
-                        <p className="mb-4">
+                        <p className="mb-4 text-white">
                             Despite its reputation, the River Kelvin remains deeply loved by local anglers. During our fieldwork, we had the privilege of meeting Tom and Lee, passionate fishermen who shared their intimate knowledge of the river. Their insights proved invaluable to our understanding of the river's dynamics and challenges.
                         </p>
                         <div className="bg-white/90 p-6 rounded-lg mb-4">
@@ -144,7 +144,7 @@ const Problem: React.FC = () => {
                                             loading="lazy"
                                         />
                                         <div className="absolute bottom-0 left-0 right-0 bg-black bg-opacity-60 p-4 text-center">
-                                            <p className="text-xl text-white mb-2">Natural Debris</p>
+                                            <p className="text-xl text-white mb-2">Debris</p>
                                             <p className="text-gray-200 text-sm">Accumulated debris affecting water flow and safety</p>
                                         </div>
                                     </div>
