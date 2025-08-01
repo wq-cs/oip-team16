@@ -120,7 +120,10 @@ function App() {
   return (
     <Router>
       <div className="relative min-h-screen">
-        <div className="fixed inset-0 z-[-1] bg-[url('/images/RK.jpg')] bg-repeat-y bg-top bg-cover" />
+        <div className="fixed inset-0 z-[-1]">
+          <div className="w-full h-full bg-[url('/images/RK.jpg')] bg-repeat-y bg-top bg-cover" />
+          <div className="absolute inset-0 bg-black/40 backdrop-blur-sm" />
+        </div>
         <Navbar />
         <Routes>
           <Route path="/" element={<Home />} />
