@@ -73,18 +73,18 @@ const DailyBriefs: React.FC = () => {
                     </div>
                 </section>
 
-                {/* Week 1 Video Player */}
+                    {/* Week 1 Video Player */}
                 <section id="week1-pitch" className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8 scroll-mt-24">
                     <h3 className="text-2xl font-semibold text-gray-800 mb-4">Week 1 Pitch Video</h3>
-                    <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                        <video
-                            className="w-full h-full object-cover"
-                            controls
-                            playsInline
-                        >
-                            <source src="/videos/pitch_week1.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                    <div className="relative w-full pt-[56.25%] rounded-lg overflow-hidden">
+                        <iframe
+                            className="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/pnj9z7Z7nQk"
+                            title="Week 1 Pitch Video"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
                     </div>
                 </section>
 
@@ -125,15 +125,15 @@ const DailyBriefs: React.FC = () => {
                 {/* Week 2 Video Player */}
                 <section id="week2-pitch" className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8 scroll-mt-24">
                     <h3 className="text-2xl font-semibold text-gray-800 mb-4">Week 2 Pitch Video</h3>
-                    <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
-                        <video
-                            className="w-full h-full object-cover"
-                            controls
-                            playsInline
-                        >
-                            <source src="/videos/pitch_week2.mp4" type="video/mp4" />
-                            Your browser does not support the video tag.
-                        </video>
+                    <div className="relative w-full pt-[56.25%] rounded-lg overflow-hidden">
+                        <iframe
+                            className="absolute top-0 left-0 w-full h-full"
+                            src="https://www.youtube.com/embed/oVu9fxIk1lo"
+                            title="Week 2 Pitch Video"
+                            frameBorder="0"
+                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                        ></iframe>
                     </div>
                 </section>
 
