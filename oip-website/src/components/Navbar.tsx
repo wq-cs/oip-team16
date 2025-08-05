@@ -39,11 +39,13 @@ const Navbar: React.FC = () => {
             { path: "/about", name: "About" },
             { path: "/problem", name: "Problem" },
             { path: "/solution", name: "Solution" },
-            { path: "/reflection", name: "Reflection" }
+            { path: "/reflection", name: "Reflection" },
+            { path: "/dailybriefs", name: "Dailies" }
           ].map((item) => (
             <Link
               key={item.path}
               to={item.path}
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
               className={`
                 font-medium
                 hover:opacity-80 transition-opacity

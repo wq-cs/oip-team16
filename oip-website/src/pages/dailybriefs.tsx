@@ -57,6 +57,20 @@ const DailyBriefs: React.FC = () => {
                     </div>
                 </section>
 
+                {/* Week 1 Video Player */}
+                <section id="week1-pitch" className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8 scroll-mt-24">
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Week 1 Pitch Video</h3>
+                    <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                        <video
+                            className="w-full h-full object-cover"
+                            controls
+                            playsInline
+                        >
+                            <source src="/videos/pitch_week1.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
+                    </div>
+                </section>
 
                 <section className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Week 2</h2>
@@ -90,6 +104,20 @@ const DailyBriefs: React.FC = () => {
                         <h3 className="text-xl font-bold text-gray-800 mb-2">1 August — Finalizing Poster & Pitch Video 2 Submission</h3>
                         <p className="text-gray-700 mb-4">The final day of Week 2 was a race against time to finalize our exhibition poster and submit Pitch Video 2. We fine-tuned the poster visuals, ensuring alignment with George's feedback and the insights gathered from our field trip. The poster was designed to tell a cohesive story, combining visual simplicity with key data points that would resonate with a general audience.</p>
                         <p className="text-gray-700">Meanwhile, the video editing team compiled all voiceovers, visuals, and field footage into a concise yet impactful 5-minute pitch. The team worked seamlessly to meet the submission deadline, marking the completion of a highly productive and rewarding week.</p>
+                    </div>                </section>
+
+                {/* Week 2 Video Player */}
+                <section id="week2-pitch" className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8 scroll-mt-24">
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Week 2 Pitch Video</h3>
+                    <div className="aspect-w-16 aspect-h-9 rounded-lg overflow-hidden">
+                        <video
+                            className="w-full h-full object-cover"
+                            controls
+                            playsInline
+                        >
+                            <source src="/videos/pitch_week2.mp4" type="video/mp4" />
+                            Your browser does not support the video tag.
+                        </video>
                     </div>
                 </section>
 
@@ -101,6 +129,29 @@ const DailyBriefs: React.FC = () => {
                         <li><strong>7 August:</strong> Exhibition Setup - Prepared exhibition materials, dry-run at venue.</li>
                         <li><strong>8 August:</strong> Exhibition Day & Final Submission - Showcased project at GUU, submitted website and documentation.</li>
                     </ul>
+
+                    <div className="mb-8">
+                        <h3 className="text-xl font-bold text-gray-800 mb-2">4 August — Adapting to Severe Weather Conditions</h3>
+                        <p className="text-gray-700 mb-4">
+                            Our team's adaptability was put to the test when Storm Floris, a severe weather system, swept through Glasgow. The Met Office had issued an amber weather warning, with forecasted wind speeds exceeding 75mph, prompting us to reassess our planned in-person meeting for survey response analysis.
+                        </p>
+                        <p className="text-gray-700 mb-4">
+                            Demonstrating our commitment to both safety and productivity, we swiftly transitioned to a virtual collaboration setup. Using our established online tools and communication channels, we successfully:
+                        </p>
+                        <ul className="list-disc list-inside ml-6 mb-4 text-gray-700">
+                            <li>Organized and analyzed survey responses from river users</li>
+                            <li>Consolidated key findings from our field research</li>
+                            <li>Structured our insights into actionable recommendations</li>
+                            <li>Maintained team momentum despite the weather disruption</li>
+                        </ul>
+                        <p className="text-gray-700 mb-4">
+                            The severity of our decision was validated when the storm caused significant damage across campus, including the dramatic incident of windows being blown out of their hinges in one of our accommodation blocks. This experience, while challenging, showcased our team's resilience and ability to maintain project progress despite unexpected environmental challenges - a fitting parallel to our project's focus on environmental monitoring and adaptation.
+                        </p>
+                        <p className="text-gray-700">
+                            The virtual session proved highly effective, allowing us to methodically process our research data while ensuring everyone's safety. This experience added an unexpected but valuable dimension to our project, highlighting the importance of flexible approaches and digital solutions in environmental monitoring and community engagement.
+                        </p>
+                    </div>
+
                 </section>
             </div>
         </div>
