@@ -56,7 +56,7 @@ function Home() {
       </section>
 
       {/* Statistics Section */}
-      <section className="py-16 px-4 bg-gradient-to-r from-blue-600/75 to-teal-400/75 relative z-10">
+      <section className="py-16 px-4 bg-gradient-to-r from-teal-600/75 to-emerald-400/75 relative z-10">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl font-bold text-white text-center mb-12">Impact & Progress</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 text-center">
@@ -104,7 +104,7 @@ function Home() {
       </section>
 
       {/* Call to Action */}
-      <section className="py-16 px-4 bg-gradient-to-r from-blue-600/75 to-teal-400/75 relative z-10">
+      <section className="py-16 px-4 bg-gradient-to-r from-teal-400/75 to-emerald-400/75 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
           <h2 className="text-3xl font-bold text-white mb-6">Join Us in Protecting River Kelvin</h2>
           <p className="text-xl text-white/90 mb-8">
