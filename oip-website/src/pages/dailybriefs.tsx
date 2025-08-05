@@ -50,7 +50,7 @@ const DailyBriefs: React.FC = () => {
                         </p>
                     </div>
 
-                   <div className="mb-8">
+                    <div className="mb-8">
                         <h3 className="text-xl font-bold text-gray-800 mb-2">23 July — Shared Mental Models & Ideation Deep Dive</h3>
                         <p className="text-gray-700 mb-4">On the 23rd of July, our team embarked on a critical reflection exercise known as the “Shared Mental Model” session. This activity was designed to align our individual perceptions of the project’s problem space, ensuring that the team would move forward with a unified understanding. Each team member took turns sharing their perspective on River Kelvin’s current monitoring challenges, what we believed were key pain points for the community, and how technology could bridge existing gaps.</p>
                         <p className="text-gray-700 mb-4">Through this exercise, we uncovered differing viewpoints: some of us emphasized environmental data accuracy while others stressed the need for community-friendly data visualizations. These conversations were instrumental in shaping a broader understanding of user needs, helping us recognize that our solution must balance both technical robustness and simplicity in user interaction.</p>
@@ -139,12 +139,12 @@ const DailyBriefs: React.FC = () => {
 
                 <section className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8">
                     <h2 className="text-2xl font-semibold text-gray-800 mb-4">Week 3</h2>
-                    <ul className="list-disc ml-6 space-y-2 text-gray-700">
+                    {/* <ul className="list-disc ml-6 space-y-2 text-gray-700">
                         <li><strong>5 August:</strong> Data Analysis & Insights - Compiled survey responses, consolidated key findings.</li>
                         <li><strong>6 August:</strong> Prototype Finalization & Rehearsals - Completed prototype, conducted team mock presentations.</li>
                         <li><strong>7 August:</strong> Exhibition Setup - Prepared exhibition materials, dry-run at venue.</li>
                         <li><strong>8 August:</strong> Exhibition Day & Final Submission - Showcased project at GUU, submitted website and documentation.</li>
-                    </ul>
+                    </ul> */}
 
                     <div className="mb-8">
                         <h3 className="text-xl font-bold text-gray-800 mb-2">4 August — Adapting to Severe Weather Conditions</h3>
@@ -155,7 +155,6 @@ const DailyBriefs: React.FC = () => {
                             Demonstrating our commitment to both safety and productivity, we swiftly transitioned to a virtual collaboration setup. Using our established online tools and communication channels, we successfully:
                         </p>
                         <ul className="list-disc list-inside ml-6 mb-4 text-gray-700">
-                            <li>Organized and analyzed survey responses from river users</li>
                             <li>Consolidated key findings from our field research</li>
                             <li>Structured our insights into actionable recommendations</li>
                             <li>Maintained team momentum despite the weather disruption</li>
@@ -165,6 +164,16 @@ const DailyBriefs: React.FC = () => {
                         </p>
                         <p className="text-gray-700">
                             The virtual session proved highly effective, allowing us to methodically process our research data while ensuring everyone's safety. This experience added an unexpected but valuable dimension to our project, highlighting the importance of flexible approaches and digital solutions in environmental monitoring and community engagement.
+                        </p>
+                    </div>
+
+                    <div className="mb-8">
+                        <h3 className="text-xl font-bold text-gray-800 mb-2">5 August — Finalizing Poster and Solution</h3>
+                        <p className="text-gray-700 mb-4">
+                            With the storm behind us, the team regrouped with renewed focus to complete our exhibition materials. A major milestone was finalizing the poster design for our submission. We began by aligning as a team on the key narrative: what story did we want the poster to tell? Building on insights from our earlier virtual session and stakeholder input, we structured the poster into clearly defined segments — problem identification, community insights, our proposed solution, and the development journey.
+                        </p>
+
+                        <p>From there, we conducted multiple design sprints to iterate on the visuals. We aimed for a balance between visual appeal and clarity, ensuring that viewers would be guided smoothly through our process. We paid attention to layout, hierarchy, typography, and alignment, continually refining how information was grouped and presented. Particular care was taken to ensure the tone was accessible but professional, matching the spirit of community engagement that underpinned our project.
                         </p>
                     </div>
 
