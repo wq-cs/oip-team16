@@ -1,6 +1,22 @@
 import React from "react";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
 
 const DailyBriefs: React.FC = () => {
+    const location = useLocation();
+
+    useEffect(() => {
+        const anchor = location.hash?.substring(1);
+        if (anchor) {
+            const el = document.getElementById(anchor);
+            if (el) {
+                setTimeout(() => {
+                    el.scrollIntoView({ behavior: "smooth" });
+                }, 100);
+            }
+        }
+    }, [location]);
+
     return (
         <div className="min-h-screen relative pt-24">
             <div className="max-w-4xl mx-auto px-4 relative z-10">

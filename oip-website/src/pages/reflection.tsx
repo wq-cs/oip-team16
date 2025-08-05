@@ -9,30 +9,26 @@ const Reflection: React.FC = () => {
         <section className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8">
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Project Portfolio</h2>
           <ul className="list-disc list-inside text-blue-700">
-            <li><a href="/dailybriefs#week1-pitch" onClick={(e) => {
-              const element = document.getElementById('week1-pitch');
-              if (element) {
-                e.preventDefault();
-                element.scrollIntoView({ behavior: 'smooth' });
-                window.location.href = '/dailybriefs#week1-pitch';
-              }
-            }} className="hover:underline">Week 1 Pitch Video</a></li>
-            <li><a href="/dailybriefs#week2-pitch" onClick={(e) => {
-              const element = document.getElementById('week2-pitch');
-              if (element) {
-                e.preventDefault();
-                element.scrollIntoView({ behavior: 'smooth' });
-                window.location.href = '/dailybriefs#week2-pitch';
-              }
-            }} className="hover:underline">Week 2 Pitch Video</a></li>
-            <li><a href="/dailybriefs" className="hover:underline" rel="noopener noreferrer">Daily Team Briefs</a></li>
-            <li><a href="#interview-pain-points" onClick={(e) => {
-              e.preventDefault();
-              const element = document.getElementById('interview-pain-points');
-              if (element) {
-                element.scrollIntoView({ behavior: 'smooth' });
-              }
-            }} className="hover:underline">Interview Pain Points</a></li>
+            <li>
+              <a href="/dailybriefs#week1-pitch" className="hover:underline">
+                Week 1 Pitch Video
+              </a>
+            </li>
+            <li>
+              <a href="/dailybriefs#week2-pitch" className="hover:underline">
+                Week 2 Pitch Video
+              </a>
+            </li>
+            <li>
+              <a href="/dailybriefs" className="hover:underline" rel="noopener noreferrer">
+                Daily Team Briefs
+              </a>
+            </li>
+            <li>
+              <a href="#interview-pain-points" className="hover:underline">
+                Interview Pain Points
+              </a>
+            </li>
           </ul>
         </section>
 
