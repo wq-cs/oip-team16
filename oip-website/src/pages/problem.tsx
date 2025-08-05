@@ -68,9 +68,9 @@ const Problem: React.FC = () => {
                         </p>
                     </section>
 
-                    <section className="bg-gradient-to-r from-teal-400/85 to-emerald-500/85 p-8 rounded-2xl shadow-lg">
-                        <h2 className="text-2xl font-semibold text-white mb-4">Key Challenges</h2>
-                        <ul className="list-disc list-inside space-y-4 text-white/90">
+                    <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
+                        <h2 className="text-2xl font-semibold text-grey-800 mb-4">Key Challenges</h2>
+                        <ul className="list-disc list-inside space-y-4 text-grey-800">
                             <li>Severe water pollution affecting the river's ecosystem</li>
                             <li>Hidden hazards including rocks, sandbags, and discarded items</li>
                             <li>Drug paraphernalia posing serious health and safety risks</li>
@@ -79,9 +79,9 @@ const Problem: React.FC = () => {
                         </ul>
                     </section>
 
-                    <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
+                    <section className="bg-gradient-to-r from-teal-400/85 to-emerald-500/85 p-8 rounded-2xl shadow-lg">
                         <h2 className="text-2xl font-semibold text-gray-800 mb-4">Wildlife Resilience</h2>
-                        <p className="mb-4">
+                        <p className="mb-4 text-white">
                             Despite these challenges, River Kelvin showcases nature's remarkable resilience. The river remains home to a diverse ecosystem, with various bird species making their home along its banks. Perhaps most impressively, salmon can still be seen jumping in its waters, a testament to the river's enduring capacity to support life.
                         </p>
                         <div className="mt-6">
