@@ -50,7 +50,7 @@ const Reflection: React.FC = () => {
             <ul className="list-disc list-inside text-blue-700">
               <li><a href="#" target="_blank" rel="noopener noreferrer">Weekly Pitch Videos</a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">Partner Communication Logs</a></li>
-              <li><a href="#" target="_blank" rel="noopener noreferrer">Daily Team Briefs</a></li>
+              <li><a href="/dailybriefs" className="hover:underline" rel="noopener noreferrer"> Daily Team Briefs </a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">External Survey Results</a></li>
               <li><a href="#" target="_blank" rel="noopener noreferrer">Public Interview Transcripts</a></li>
             </ul>

@@ -6,6 +6,8 @@ import Journey from "./pages/journey";
 import About from "./pages/about";
 import Reflection from "./pages/reflection";
 import Dailies from "./pages/dailies";
+import DailyBriefs from "./pages/dailybriefs";
+
 
 function Home() {
   return (
@@ -134,6 +136,7 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/reflection" element={<Reflection />} />
           <Route path="/dailies" element={<Dailies />} />
+          <Route path="/dailybriefs" element={<DailyBriefs />} />
         </Routes>
       </div>
     </Router>
