@@ -176,7 +176,14 @@ const DailyBriefs: React.FC = () => {
                         <p>From there, we conducted multiple design sprints to iterate on the visuals. We aimed for a balance between visual appeal and clarity, ensuring that viewers would be guided smoothly through our process. We paid attention to layout, hierarchy, typography, and alignment, continually refining how information was grouped and presented. Particular care was taken to ensure the tone was accessible but professional, matching the spirit of community engagement that underpinned our project.
                         </p>
                     </div>
+                </section>
 
+                {/* Poster */}
+                <section className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8">
+                <div className="mb-8" id="poster">
+                    <h3 className="text-2xl font-semibold text-gray-800 mb-4">Poster</h3>
+                    <img src={`${import.meta.env.BASE_URL}images/poster.jpg`} alt="Project Poster" className="w-full h-auto rounded-lg shadow-lg" />
+                </div>
                 </section>
             </div>
         </div>

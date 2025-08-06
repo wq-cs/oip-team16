@@ -29,6 +29,11 @@ const Reflection: React.FC = () => {
                 Interview Pain Points
               </a>
             </li>
+            <li>
+              <a href="/dailybriefs#poster" className="hover:underline">
+                Poster
+              </a>
+            </li>
           </ul>
         </section>
 
