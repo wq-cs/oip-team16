@@ -29,7 +29,7 @@ const Problem: React.FC = () => {
                         muted
                         playsInline
                     >
-                        <source src="/videos/River Kelvin Footage.mp4" type="video/mp4" />
+                        <source src={`${import.meta.env.BASE_URL}videos/River Kelvin Footage.mp4`} type="video/mp4" />
                         Your browser does not support the video tag.
                     </video>
                 </section>
@@ -90,7 +90,7 @@ const Problem: React.FC = () => {
                                 <Slider {...carouselSettings} className="slider-container">
                                     <div className="relative h-80">
                                         <img
-                                            src="/images/containers.jpg"
+                                            src={`${import.meta.env.BASE_URL}images/containers.jpg`}
                                             alt="Containers by the river"
                                             className="w-full h-full object-cover transition-opacity duration-300"
                                             loading="lazy"
@@ -102,7 +102,7 @@ const Problem: React.FC = () => {
                                     </div>
                                     <div className="relative h-80">
                                         <img
-                                            src="/images/jacket.jpg"
+                                            src={`${import.meta.env.BASE_URL}images/jacket.jpg`}
                                             alt="Discarded jacket"
                                             className="w-full h-full object-cover transition-opacity duration-300"
                                             loading="lazy"
@@ -114,7 +114,7 @@ const Problem: React.FC = () => {
                                     </div>
                                     <div className="relative h-80">
                                         <img
-                                            src="/images/muddy.jpg"
+                                            src={`${import.meta.env.BASE_URL}images/muddy.jpg`}
                                             alt="Muddy river water"
                                             className="w-full h-full object-cover transition-opacity duration-300"
                                             loading="lazy"
@@ -126,7 +126,7 @@ const Problem: React.FC = () => {
                                     </div>
                                     <div className="relative h-80">
                                         <img
-                                            src="/images/squirrel.jpg"
+                                            src={`${import.meta.env.BASE_URL}images/squirrel.jpg`}
                                             alt="Local wildlife"
                                             className="w-full h-full object-cover transition-opacity duration-300"
                                             loading="lazy"
@@ -138,7 +138,7 @@ const Problem: React.FC = () => {
                                     </div>
                                     <div className="relative h-80">
                                         <img
-                                            src="/images/twigs.jpg"
+                                            src={`${import.meta.env.BASE_URL}images/twigs.jpg`}
                                             alt="River debris"
                                             className="w-full h-full object-cover transition-opacity duration-300"
                                             loading="lazy"

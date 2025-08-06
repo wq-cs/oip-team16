@@ -15,7 +15,7 @@ const Solution: React.FC = () => {
           </p>
           <div className="bg-white p-4 rounded-lg shadow-md mt-4">
             <img
-              src="../images/OIP_SolutionPrototype.png"
+              src={`${import.meta.env.BASE_URL}images/OIP_SolutionPrototype.png`}
               alt="Solution Prototype for River Kelvin Monitoring"
               className="w-full rounded-lg"
             />
