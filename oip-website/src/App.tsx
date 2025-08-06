@@ -1,4 +1,4 @@
-import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
+import { BrowserRouter, Routes, Route, Link } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import Problem from "./pages/problem";
 import Solution from "./pages/solution";
@@ -6,7 +6,6 @@ import Journey from "./pages/journey";
 import About from "./pages/about";
 import Reflection from "./pages/reflection";
 import DailyBriefs from "./pages/dailybriefs";
-
 
 function Home() {
   return (
@@ -120,7 +119,7 @@ function Home() {
 
 function App() {
   return (
-    <Router>
+    <BrowserRouter basename="/oip-team16">
       <div className="relative min-h-screen">
         <div className="fixed inset-0 z-[-1]">
           <div className="w-full h-full bg-[url('/images/RK.jpg')] bg-repeat-y bg-top bg-cover" />
@@ -137,7 +136,7 @@ function App() {
           <Route path="/dailybriefs" element={<DailyBriefs />} />
         </Routes>
       </div>
-    </Router>
+    </BrowserRouter>
   );
 }
 
