@@ -1,6 +1,6 @@
 import React from "react";
-import FORKLogo from "../../public/images/FORKLogo.png";
-import TeamPhoto from "../../public/images/OurTeam.jpg";
+import FORKLogo from "/images/FORKLogo.png";
+import TeamPhoto from "/images/OurTeam.jpg";
 
 const About: React.FC = () => {
   return (
