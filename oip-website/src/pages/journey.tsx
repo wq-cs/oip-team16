@@ -15,31 +15,31 @@ const Journey: React.FC = () => {
                 {
                   title: "Phase 1: Partner Meeting",
                   text: "We met with stakeholders to understand their concerns, pain points, and current systems in place.",
-                  img: ["../../public/images/phase1.jpg"],
+                  img: ["/images/phase1.jpg"],
                   borderColor: "bg-blue-500"
                 },
                 {
                   title: "Phase 2: Low-Fi Prototyping",
                   text: "After ideation, we began sketching and creating low-fidelity prototypes to test initial concepts.",
-                  img: ["../../public/images/Phase2Pic1.jpg", "../../public/images/Phase2Pic2.jpg","../../public/images/Phase2Pic3.jpg"],
+                  img: ["/images/Phase2Pic1.jpg", "/images/Phase2Pic2.jpg", "/images/Phase2Pic3.jpg"],
                   borderColor: "bg-green-500"
                 },
                 {
                   title: "Phase 3: Field Work Study",
                   text: "We visited River Kelvin and interviewed anglers to gain field insights and feedback on our prototype.",
-                  img: ["../../public/images/Phase3Pic2.jpg","../../public/images/Phase3Pic1.jpg"],
+                  img: ["/images/Phase3Pic2.jpg", "/images/Phase3Pic1.jpg"],
                   borderColor: "bg-purple-500"
                 },
                 {
                   title: "Phase 4: Improved Prototyping",
                   text: "Based on real-world feedback, we refined features and enhanced the UI for a cleaner, more usable experience.",
-                  img: ["../../public/images/Phase4Pic1.jpg"],
+                  img: ["/images/Phase4Pic1.jpg"],
                   borderColor: "bg-yellow-500"
                 },
                 {
                   title: "Phase 5: Usability Testing",
                   text: "We conducted usability tests, iterated based on findings, and aligned the prototype closer to user mental models.",
-                  img: ["../../public/images/phase5.jpg"],
+                  img: ["/images/phase5.jpg"],
                   borderColor: "bg-pink-500"
                 }
               ].map((phase, index) => {
