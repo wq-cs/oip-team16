@@ -10,17 +10,17 @@ const Reflection: React.FC = () => {
           <h2 className="text-2xl font-semibold text-gray-800 mb-4">Project Portfolio</h2>
           <ul className="list-disc list-inside text-blue-700">
             <li>
-              <a href="/dailybriefs#week1-pitch" className="hover:underline">
+              <a href="/oip-team16/dailybriefs#week1-pitch" className="hover:underline">
                 Week 1 Pitch Video
               </a>
             </li>
             <li>
-              <a href="/dailybriefs#week2-pitch" className="hover:underline">
+              <a href="/oip-team16/dailybriefs#week2-pitch" className="hover:underline">
                 Week 2 Pitch Video
               </a>
             </li>
             <li>
-              <a href="/dailybriefs" className="hover:underline" rel="noopener noreferrer">
+              <a href="/oip-team16/dailybriefs" className="hover:underline" rel="noopener noreferrer">
                 Daily Team Briefs
               </a>
             </li>
@@ -30,7 +30,7 @@ const Reflection: React.FC = () => {
               </a>
             </li>
             <li>
-              <a href="/dailybriefs#poster" className="hover:underline">
+              <a href="/oip-team16/dailybriefs#poster" className="hover:underline">
                 Poster
               </a>
             </li>
