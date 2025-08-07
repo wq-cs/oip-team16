@@ -15,12 +15,31 @@ const Solution: React.FC = () => {
           </p>
           <div className="bg-white p-4 rounded-lg shadow-md mt-4">
             <img
-              src="../../public/images/OIP_SolutionPrototype.png"
+              src={`${import.meta.env.BASE_URL}images/OIP_SolutionPrototype.png`}
               alt="Solution Prototype for River Kelvin Monitoring"
               className="w-full rounded-lg"
             />
           </div>
         </section>
+
+        {/* NEW SECTION: Prototype Diagram */}
+        <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
+          <h2 className="text-2xl font-semibold text-gray-800 mb-4">Interactive Prototype</h2>
+          <p className="mb-4">
+            Explore our interactive prototype to better understand how the River Kelvin monitoring application solution.
+          </p>
+          <div className="overflow-x-auto">
+            <iframe
+              style={{ border: '1px solid rgba(0, 0, 0, 0.1)' }}
+              width="800"
+              height="450"
+              src="https://embed.figma.com/proto/p40gUGt2s8BYGlwIK6jFIV/OIP-team-16?node-id=49-440&p=f&scaling=scale-down&content-scaling=fixed&page-id=0%3A1&starting-point-node-id=49%3A440&embed-host=share"
+              allowFullScreen
+              className="mx-auto rounded-lg shadow-md"
+            ></iframe>
+          </div>
+        </section>
+
 
           <section className="bg-white/85 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Technical Overview</h2>

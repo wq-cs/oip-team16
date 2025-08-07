@@ -1,3 +1,48 @@
+## 🚀 Getting Started
+
+### 📦 Install dependencies
+
+```bash
+npm install
+```
+
+### 🔧 Development
+
+To start the local dev server with hot module replacement:
+
+```bash
+npm run dev
+```
+
+Open your browser and go to: [http://localhost:5173](http://localhost:5173)
+
+---
+
+## 🚢 Deployment
+
+This project is deployed to **GitHub Pages** under the `/oip-team16` subpath.
+
+### 📄 Deployment URL
+
+[https://wq-cs.github.io/oip-team16](https://wq-cs.github.io/oip-team16)
+
+### 📂 Build and Deploy
+
+To build and deploy your site:
+
+```bash
+npm run deploy
+```
+
+This will:
+
+1. Run the production build using `npm run build`
+2. Publish the contents of the `dist/` folder to the `gh-pages` branch via `gh-pages`
+
+> **Important:** Ensure the `homepage` in `package.json` and `base` in `vite.config.ts` are correctly set to `https://wq-cs.github.io/oip-team16` and `/oip-team16/` respectively.
+
+--- 
+
 # React + TypeScript + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
