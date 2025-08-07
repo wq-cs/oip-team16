@@ -118,7 +118,7 @@ const DailyBriefs: React.FC = () => {
 
                     <div className="mb-8">
                         <h3 className="text-xl font-bold text-gray-800 mb-2">1 August — Finalizing Poster & Pitch Video 2 Submission</h3>
-                        <p className="text-gray-700 mb-4">The final day of Week 2 was a race against time to finalize our exhibition poster and submit Pitch Video 2. We fine-tuned the poster visuals, ensuring alignment with George's feedback and the insights gathered from our field trip. The poster was designed to tell a cohesive story, combining visual simplicity with key data points that would resonate with a general audience.</p>
+                        <p className="text-gray-700 mb-4">The final day of Week 2 was a race against time to submit Pitch Video 2 and to finalise poster design and formatting. We fine-tuned the poster visuals, ensuring alignment with George's feedback and the insights gathered from our field trip. The poster was designed to tell a cohesive story, combining visual simplicity with key data points that would resonate with a general audience.</p>
                         <p className="text-gray-700">Meanwhile, the video editing team compiled all voiceovers, visuals, and field footage into a concise yet impactful 5-minute pitch. The team worked seamlessly to meet the submission deadline, marking the completion of a highly productive and rewarding week.</p>
                     </div>                </section>
 
@@ -176,7 +176,37 @@ const DailyBriefs: React.FC = () => {
                         <p>From there, we conducted multiple design sprints to iterate on the visuals. We aimed for a balance between visual appeal and clarity, ensuring that viewers would be guided smoothly through our process. We paid attention to layout, hierarchy, typography, and alignment, continually refining how information was grouped and presented. Particular care was taken to ensure the tone was accessible but professional, matching the spirit of community engagement that underpinned our project.
                         </p>
                     </div>
-                </section>
+
+                    <div className="mb-8">
+                        <h3 className="text-xl font-bold text-gray-800 mb-2">6 August — Refining Prototype and Conducting Usability Testing</h3>
+                        <p className="text-gray-700 mb-4">
+                            As we approached the final stretch of our project, our team focused on refining our prototype based on the feedback we had gathered. This was a crucial day dedicated to user experience and interface flow. We spent the morning reviewing all screens, identifying inconsistencies, and working in pairs to test each other's flows.
+                            </p>
+                            <p className="text-gray-700 mb-4">
+                                Our main goal was to ensure that the app’s features felt intuitive and responsive. While doing so, we also conducted informal usability tests within the classroom, observing how our peers interacted with the interface. We noted areas where users hesitated or needed clarification, which informed immediate revisions. Through this collaborative iteration, our design became more polished and accessible to the broader community.
+                                </p>
+                                </div>
+                    
+                    <div className="mb-8">
+                        <h3 className="text-xl font-bold text-gray-800 mb-2">7 August — Tutor Feedback and Final Adjustments</h3>
+                        <p className="text-gray-700 mb-4">
+                             After our scheduled ethics lectures, we regrouped for a full review session and consultation with our tutor. This was a pivotal session where we presented the refined version of our prototype, focusing on both function and narrative coherence. The feedback we received encouraged us to further simplify certain flows and better highlight the community aspect of our solution.
+                             </p>
+                             <p className="text-gray-700 mb-4">
+                                 We also revisited our homepage and event page layout, ensuring that the most valuable information was immediately visible to users. This tutor interaction helped sharpen our storytelling and realign our design with the central goal of community-driven environmental awareness.
+                                 </p>
+                                    </div>
+
+                    <div className="mb-8">
+                         <h3 className="text-xl font-bold text-gray-800 mb-2">8 August — Exhibition Setup and Final Website Touch-ups</h3>
+                          <p className="text-gray-700 mb-4">
+                            The energy on this day was both exciting and tense as teams across the cohort prepared for the upcoming exhibition. Our team arrived early to begin setup at the GUU, where we arranged our poster, prototype display, and supporting visuals. The goal was to create an inviting and informative experience for visitors, especially stakeholders and fellow students.
+                            </p>
+                            <p className="text-gray-700 mb-4">
+                                In parallel, we did a final walkthrough of our website, correcting minor visual inconsistencies and ensuring all links, images, and written content were properly formatted and aligned with our narrative. With the website deadline approaching, these last-minute refinements helped us feel confident and ready to present a solution that reflected weeks of learning, fieldwork, and collaboration.
+                                </p>
+                                </div>
+                                 </section>
 
                 {/* Poster */}
                 <section className="bg-white/75 p-8 rounded-2xl shadow-lg mb-8">

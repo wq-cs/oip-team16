@@ -70,6 +70,14 @@ const Reflection: React.FC = () => {
     </p>
   </section>
 
+  <div className="w-full flex justify-center mb-8">
+    <img
+      src={`${import.meta.env.BASE_URL}images/groupphoto.jpg`}
+      alt="Team proud moment by the River Kelvin"
+      className="rounded-2xl shadow-md max-w-full h-auto"
+    />
+  </div>
+
 
           <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4" id="interview-pain-points">Interview pain points</h2>
@@ -84,10 +92,13 @@ const Reflection: React.FC = () => {
           <section className="bg-white/75 p-8 rounded-2xl shadow-lg">
             <h2 className="text-2xl font-semibold text-gray-800 mb-4">Final reflection essay</h2>
             <p className="mb-4">
-              As we look back on this project, we are proud of the depth of reflection, adaptability, and teamwork that defined our approach. The final video and website capture not only the challenges of the River Kelvin but also the resilience and voices of the people who live alongside it. We believe that our use of real images, community interviews, and personal narratives helped craft a story that is both impactful and emotionally resonant.
+              As we close this chapter, we are proud of the journey we have taken together, one defined by listening, learning, and evolving as a team. This project stretched us beyond our technical skills, challenging us to think critically about ethics, community impact, and environmental responsibility. Our weekly videos, website, and fieldwork were not just deliverables. They were expressions of our growing commitment to co-creation and social relevance. What resonates most is how our storytelling through real images, community voices, and personal interviews helped amplify underrepresented concerns. We believe our final outcome strikes a balance between informative and emotional, showcasing not just the river’s problems but also the resilience of those who care for it.
             </p>
-            <p>
-              That said, we’ve also learned a great deal about what we could have done better. With more time, we would have conducted broader public outreach and deeper engagement with policymakers or advocacy groups. Nevertheless, our final deliverables reflect a sincere and informed effort to elevate an under-discussed issue through responsible storytelling. We leave this project with a greater appreciation of environmental justice and the importance of co-creation with local stakeholders.
+            <p className="mb-4">
+              There were still many perspectives we would have liked to explore further, such as engaging with swimmers, families, or advocacy groups who experience the river differently. These opportunities present room for future iteration and expansion. Yet throughout, our dedication to responsible storytelling, thoughtful design, and empathy-driven decisions remained constant. We leave this experience not only with pride in what we have created but also with a deeper appreciation for environmental justice, community collaboration, and the role design can play in shaping meaningful change.
+            </p>
+            <p className="mb-4">
+             In essence, this project became more than an academic challenge. It was a journey of empathy, creativity, and purpose. We learned to design not just for users, but with them by listening to real stories, responding to real needs, and adapting with humility. The River Kelvin became our classroom, and its community our teachers. What we take away is not just a finished solution, but a renewed sense of responsibility to create technology that uplifts and respects the lives it touches.
             </p>
           </section>
 
