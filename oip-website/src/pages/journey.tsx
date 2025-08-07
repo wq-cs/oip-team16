@@ -15,49 +15,49 @@ const Journey: React.FC = () => {
                 {
                   title: "Phase 1: Partner Meeting",
                   text: "We met with stakeholders to understand their concerns, pain points, and current systems in place.",
-                  img: ["../images/FORKLogo.png"],
+                  img: [`${import.meta.env.BASE_URL}images/FORKLogo.png`],
                   borderColor: "bg-blue-500"
                 },
                 {
                   title: "Phase 2: Problem Framing",
                   text: "We defined the core problems with river monitoring, researched environmental challenges, and refined our problem statement.",
-                  img: ["../images/ProblemFraming1.png", "../images/ProblemFraming2.png"],
+                  img: [`${import.meta.env.BASE_URL}images/ProblemFraming1.png`, `${import.meta.env.BASE_URL}images/ProblemFraming2.png`],
                   borderColor: "bg-red-500"
                 },
                 {
                   title: "Phase 3: Stakeholder Mapping",
                   text: "We identified key stakeholders including FORK, local anglers, residents, and government agencies to tailor our solution to their needs.",
-                  img: ["../images/RiverKelvinAngler.jpg","../images/RiverKelvinKids.jpg","../images/KelvinWalkwayTrekkers.jpg"],
+                  img: [`${import.meta.env.BASE_URL}images/RiverKelvinAngler.jpg`,`${import.meta.env.BASE_URL}images/RiverKelvinKids.jpg`,`${import.meta.env.BASE_URL}images/KelvinWalkwayTrekkers.jpg`],
                   borderColor: "bg-indigo-500"
                 },
                 {
                   title: "Phase 4: Technical Research on Existing Solutions & Feasibility Analysis",
                   text: "We reviewed existing sensor technologies, environmental monitoring tools, and evaluated what was technically feasible for our project.",
-                  img: ["../images/UKCEH.png","../images/TheBRW.png","../images/WTT.svg"],
+                  img: [`${import.meta.env.BASE_URL}images/UKCEH.png`,`${import.meta.env.BASE_URL}images/TheBRW.png`,`${import.meta.env.BASE_URL}images/WTT.svg`],
                   borderColor: "bg-orange-500"
                 },
                 {
                   title: "Phase 5: Low-Fi Prototyping",
                   text: "After ideation, we began sketching and creating low-fidelity prototypes to test initial concepts.",
-                  img: ["../images/Phase2Pic1.jpg", "../images/Phase2Pic2.jpg", "../images/Phase2Pic3.jpg"],
+                  img: [`${import.meta.env.BASE_URL}images/Phase2Pic1.jpg`, `${import.meta.env.BASE_URL}images/Phase2Pic2.jpg`, `${import.meta.env.BASE_URL}images/Phase2Pic3.jpg`],
                   borderColor: "bg-green-500"
                 },
                 {
                   title: "Phase 6: Field Work Study",
                   text: "We visited River Kelvin and interviewed anglers to gain field insights and feedback on our prototype.",
-                  img: ["/images/Phase3Pic2.jpg", "/images/Phase3Pic1.jpg"],
+                  img: [`${import.meta.env.BASE_URL}images/Phase3Pic2.jpg`, `${import.meta.env.BASE_URL}images/Phase3Pic1.jpg`],
                   borderColor: "bg-purple-500"
                 },
                 {
                   title: "Phase 7: Improved Prototyping",
                   text: "Based on real-world feedback, we refined features and enhanced the UI for a cleaner, more usable experience.",
-                  img: ["/images/Phase4Pic1.jpg"],
+                  img: [`${import.meta.env.BASE_URL}images/Phase4Pic1.jpg`],
                   borderColor: "bg-yellow-500"
                 },
                 {
                   title: "Phase 8: Usability Testing",
                   text: "We conducted usability tests, iterated based on findings, and aligned the prototype closer to user mental models.",
-                  img: ["/images/phase5.jpg"],
+                  img: [`${import.meta.env.BASE_URL}images/phase5.jpg`],
                   borderColor: "bg-pink-500"
                 }
               ].map((phase, index) => {
